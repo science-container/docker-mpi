@@ -5,9 +5,9 @@ import plotly.graph_objs as go
 trace1 = go.Bar(
 		text=dict(family='Courier New, monospace',size=14,color='#000000'),
 		x =["InfiniBand <br>Bare Metal",
-		"InfiniBand<br>Host Container",
+		"InfiniBand<br>Docker Container",
 		"Ethernet<br>Bare Metal",
-		"Ethernet<br>Host Container"],
+		"Ethernet<br>Docker Container"],
 		y=[94557.72,	94484.96,	93612.56,	93258.69
 		]
 	       )
