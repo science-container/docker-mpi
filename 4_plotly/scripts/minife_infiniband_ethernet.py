@@ -4,10 +4,10 @@ import plotly.graph_objs as go
 
 trace1 = go.Bar(
 		text=dict(family='Courier New, monospace',size=14,color='#000000'),
-		x =["IB with<br>Bare Metal",
-		"IB  with<br>Host Container",
-		"Ethernet with<br>Bare Metal",
-		"Ethernet with<br>Host Container"],
+		x =["InfiniBand <br>Bare Metal",
+		"InfiniBand<br>Host Container",
+		"Ethernet<br>Bare Metal",
+		"Ethernet<br>Host Container"],
 		y=[94557.72,	94484.96,	93612.56,	93258.69
 		]
 	       )
